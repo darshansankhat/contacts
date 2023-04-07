@@ -29,6 +29,8 @@ class _Call_scrrenState extends State<Call_scrren> {
   Widget build(BuildContext context) {
     int index = ModalRoute.of(context)!.settings.arguments as int;
 
+
+
     return SafeArea(
       child: Scaffold(
         body: Padding(
@@ -191,7 +193,7 @@ class _Call_scrrenState extends State<Call_scrren> {
                         size: 30,
                         color: Colors.blue,
                       ),
-                    )
+                    ),
                   ],
                 ),
                 //contact
